@@ -35,6 +35,9 @@ https://positive.sk/
 **Qorpo**  
 https://qorpo.world/
 
+**SCR Technologies**  
+https://www.scrtechnologies.sk/
+
 **Vallue**  
 https://www.valllue.com/
 
