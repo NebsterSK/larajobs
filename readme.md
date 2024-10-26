@@ -20,6 +20,9 @@ https://meetbrackets.com/
 **Bratislava Karlova Ves**  
 https://www.karlovaves.sk/
 
+**Brokeria**  
+https://www.brokeria.sk/
+
 **Commander Services**  
 https://commander.sk/
 
