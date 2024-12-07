@@ -53,6 +53,9 @@ https://qorpo.world/
 **SCR Technologies**  
 https://www.scrtechnologies.sk/
 
+**Startitup Group**  
+https://www.startitupgroup.sk/
+
 **UI42**  
 https://www.ui42.sk/
 
