@@ -14,11 +14,17 @@ https://www.baranidesign.com/
 **Berlin Brands Group**  
 https://www.berlin-brands-group.com/sk/workplaces/slovakia
 
+**Boutaround**  
+https://www.boataround.com/
+
 **Brackets**  
 https://meetbrackets.com/
 
 **Bratislava Karlova Ves**  
 https://www.karlovaves.sk/
+
+**Bratislava Pertžalka**  
+https://www.petrzalka.sk/
 
 **Brokeria**  
 https://www.brokeria.sk/
@@ -29,7 +35,10 @@ https://commander.sk/
 **Dazzler**  
 https://www.dazzler.sk/
 
-**Dopravny Podnik Bratislava**  
+**DIGI Slovakia**  
+https://www.digislovakia.sk/
+
+**Dopravný Podnik Bratislava**  
 https://dpb.sk/
 
 **ESET**  
@@ -53,8 +62,14 @@ https://qorpo.world/
 **SCR Technologies**  
 https://www.scrtechnologies.sk/
 
+**Slovenská Národná Galéria**  
+https://sng.sk/
+
 **Startitup Group**  
 https://www.startitupgroup.sk/
+
+**TSS Group**  
+https://www.tssgroup.sk/
 
 **UI42**  
 https://www.ui42.sk/
