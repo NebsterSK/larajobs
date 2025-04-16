@@ -47,6 +47,9 @@ https://www.eset.com/
 **Finax**  
 https://www.finax.eu/
 
+**Jens & Litwak**  
+http://jenslitwak.com/
+
 **Kodiva**  
 https://kodiva.sk/
 
@@ -67,6 +70,9 @@ https://sng.sk/
 
 **Startitup Group**  
 https://www.startitupgroup.sk/
+
+**TapGest**  
+https://www.tapgest.com/
 
 **TSS Group**  
 https://www.tssgroup.sk/
