@@ -1,6 +1,9 @@
-# Larajobs SK
+# Larajobs Slovakia
 
-A list of companies based in Slovak Republic (Slovakia) using **Laravel**.
+If you are looking for a job in a company that uses **Laravel**, you are in the right place!  
+Feel free to contact any company from the list below.
+
+***
 
 **Amcef**  
 https://amcef.com/
@@ -43,6 +46,9 @@ https://dpb.sk/
 
 **ESET**  
 https://www.eset.com/
+
+**Fat Chilli**  
+https://fatchillimedia.com/
 
 **Finax**  
 https://www.finax.eu/
@@ -88,3 +94,9 @@ https://www.websupport.sk/
 
 **World Business Press Online**  
 https://www.wbpo.sk/
+
+***
+
+## Sources
+- https://www.profesia.sk/
+- My own experience
