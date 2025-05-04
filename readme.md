@@ -92,6 +92,9 @@ https://www.valllue.com/
 **Websupport**  
 https://www.websupport.sk/
 
+**WESTech**  
+https://www.westech.eu/
+
 **World Business Press Online**  
 https://www.wbpo.sk/
 
