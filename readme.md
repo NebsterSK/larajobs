@@ -8,6 +8,9 @@ Feel free to contact any company from the list below.
 **Amcef**  
 https://amcef.com/
 
+**Apartment Holdings Slovensko**  
+https://apartmentholdings.sk/
+
 **ASdata**  
 https://www.asdata.sk/
 
@@ -102,4 +105,5 @@ https://www.wbpo.sk/
 
 ## Sources
 - https://www.profesia.sk/
+- https://www.linkedin.com/
 - My own experience
