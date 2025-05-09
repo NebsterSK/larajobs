@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Laravel companies in Slovakia</title>
+</head>
+
+<body>
+<div class="container-sm">
+    <h1 class="text-center mt-5">Laravel companies in Slovakia</h1>
+
+    <p class="text-center">If you are looking for a job in a company that uses Laravel, you are in the right place!<br>Feel free to contact any company from the list below.</p>
+
+    <div class="row justify-content-lg-center">
+        <div
+            x-data="{search:'', companies:data}"
+
+            class="col-12 col-lg-4"
+        >
+            <div class="my-5">
+                <label for="searchInput" class="d-none">Search</label>
+
+                <input
+                    x-model="search"
+                    @keyup="companies = filter(search)"
+
+                    type="text"
+                    class="form-control"
+                    id="searchInput"
+                    maxlength="255"
+                    placeholder="Search"
+                >
+            </div>
+
+            <ul class="list-group mb-5">
+                <template
+                    x-for="company in companies"
+                    :key="company.name"
+                >
+                    <li class="list-group-item">
+                        <p
+                            x-text="company.name"
+
+                            class="fw-bold mb-1"
+                        ></p>
+
+                        <a
+                            :href="company.url"
+                            x-text="company.url"
+
+                            target="_blank"
+                        ></a>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+
+    <p class="text-center">Lukáš Neuschl &copy; 2025, built with <a href="https://alpinejs.dev/" target="_blank">Alpine.js</a></p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+<script>
+    function filter(search)
+    {
+        return data.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()));
+    }
+
+    const data = [
+        { name: "Amcef", url: "https://amcef.com/" },
+        { name: "Apartment Holdings Slovensko", url: "https://apartmentholdings.sk/" },
+        { name: "ASdata", url: "https://www.asdata.sk/" },
+        { name: "Barani Design Technologies", url: "https://www.baranidesign.com/" },
+        { name: "Berlin Brands Group", url: "https://www.berlin-brands-group.com/sk/workplaces/slovakia" },
+        { name: "Boutaround", url: "https://www.boataround.com/" },
+        { name: "Brackets", url: "https://meetbrackets.com/" },
+        { name: "Bratislava Karlova Ves", url: "https://www.karlovaves.sk/" },
+        { name: "Bratislava Petržalka", url: "https://www.petrzalka.sk/" },
+        { name: "Brokeria", url: "https://www.brokeria.sk/" },
+        { name: "Commander Services", url: "https://commander.sk/" },
+        { name: "Dazzler", url: "https://www.dazzler.sk/" },
+        { name: "DIGI Slovakia", url: "https://www.digislovakia.sk/" },
+        { name: "Dopravný Podnik Bratislava", url: "https://dpb.sk/" },
+        { name: "ESET", url: "https://www.eset.com/" },
+        { name: "Fat Chilli", url: "https://fatchillimedia.com/" },
+        { name: "Finax", url: "https://www.finax.eu/" },
+        { name: "Jens & Litwak", url: "http://jenslitwak.com/" },
+        { name: "Kodiva", url: "https://kodiva.sk/" },
+        { name: "Nike", url: "https://www.nike.sk/" },
+        { name: "Positive", url: "https://positive.sk/" },
+        { name: "Qorpo", url: "https://qorpo.world/" },
+        { name: "SCR Technologies", url: "https://www.scrtechnologies.sk/" },
+        { name: "Slovenská Národná Galéria", url: "https://sng.sk/" },
+        { name: "Startitup Group", url: "https://www.startitupgroup.sk/" },
+        { name: "TapGest", url: "https://www.tapgest.com/" },
+        { name: "TSS Group", url: "https://www.tssgroup.sk/" },
+        { name: "UI42", url: "https://www.ui42.sk/" },
+        { name: "Vallue", url: "https://www.valllue.com/" },
+        { name: "Websupport", url: "https://www.websupport.sk/" },
+        { name: "WESTech", url: "https://www.westech.eu/" },
+        { name: "World Business Press Online", url: "https://www.wbpo.sk/" }
+    ];
+</script>
+</body>
+</html>
