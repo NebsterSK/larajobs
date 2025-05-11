@@ -1,6 +1,6 @@
-# Larajobs Slovakia
+# Laravel Companies Slovakia
 
-If you are looking for a job in a company that uses **Laravel**, you are in the right place!  
+If you are looking for a job in a company that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
 ***
@@ -8,53 +8,53 @@ Feel free to contact any company from the list below.
 **Amcef**  
 https://amcef.com/
 
-**Apartment Holdings Slovensko**  
+**Apartment Holdings**  
 https://apartmentholdings.sk/
 
 **ASdata**  
-https://www.asdata.sk/
+https://asdata.sk/
 
 **Barani Design Technologies**  
-https://www.baranidesign.com/
+https://baranidesign.com/
 
 **Berlin Brands Group**  
-https://www.berlin-brands-group.com/sk/workplaces/slovakia
+https://berlin-brands-group.com/sk/workplaces/slovakia
 
 **Boutaround**  
-https://www.boataround.com/
+https://boataround.com/
 
 **Brackets**  
 https://meetbrackets.com/
 
 **Bratislava Karlova Ves**  
-https://www.karlovaves.sk/
+https://karlovaves.sk/
 
 **Bratislava Pertžalka**  
-https://www.petrzalka.sk/
+https://petrzalka.sk/
 
 **Brokeria**  
-https://www.brokeria.sk/
+https://brokeria.sk/
 
 **Commander Services**  
 https://commander.sk/
 
 **Dazzler**  
-https://www.dazzler.sk/
+https://dazzler.sk/
 
 **DIGI Slovakia**  
-https://www.digislovakia.sk/
+https://digislovakia.sk/
 
 **Dopravný Podnik Bratislava**  
 https://dpb.sk/
 
 **ESET**  
-https://www.eset.com/
+https://eset.com/
 
 **Fat Chilli**  
 https://fatchillimedia.com/
 
 **Finax**  
-https://www.finax.eu/
+https://finax.eu/
 
 **Jens & Litwak**  
 http://jenslitwak.com/
@@ -63,7 +63,7 @@ http://jenslitwak.com/
 https://kodiva.sk/
 
 **Nike**  
-https://www.nike.sk/
+https://nike.sk/
 
 **Positive**  
 https://positive.sk/
@@ -72,38 +72,38 @@ https://positive.sk/
 https://qorpo.world/
 
 **SCR Technologies**  
-https://www.scrtechnologies.sk/
+https://scrtechnologies.sk/
 
 **Slovenská Národná Galéria**  
 https://sng.sk/
 
 **Startitup Group**  
-https://www.startitupgroup.sk/
+https://startitupgroup.sk/
 
 **TapGest**  
-https://www.tapgest.com/
+https://tapgest.com/
 
 **TSS Group**  
-https://www.tssgroup.sk/
+https://tssgroup.sk/
 
 **UI42**  
-https://www.ui42.sk/
+https://ui42.sk/
 
 **Vallue**  
-https://www.valllue.com/
+https://valllue.com/
 
 **Websupport**  
-https://www.websupport.sk/
+https://websupport.sk/
 
 **WESTech**  
-https://www.westech.eu/
+https://westech.eu/
 
 **World Business Press Online**  
-https://www.wbpo.sk/
+https://wbpo.sk/
 
 ***
 
 ## Sources
-- https://www.profesia.sk/
-- https://www.linkedin.com/
+- https://profesia.sk/
+- https://linkedin.com/
 - My own experience
