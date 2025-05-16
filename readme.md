@@ -56,11 +56,20 @@ https://fatchillimedia.com/
 **Finax**  
 https://finax.eu/
 
+**Flywize**  
+https://flywize.eu/
+
 **Jens & Litwak**  
 http://jenslitwak.com/
 
 **Kodiva**  
 https://kodiva.sk/
+
+**Let's Consult**  
+https://letsconsult.sk/
+
+**Matate**  
+https://matate.sk/
 
 **Nike**  
 https://nike.sk/
