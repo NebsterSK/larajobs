@@ -10,3 +10,12 @@ a {
     color: #f53003;
     text-decoration: none;
 }
+
+#modeToggler {
+    top: 10px;
+    right: 10px;
+}
+
+#modeToggler:hover {
+    cursor: pointer;
+}

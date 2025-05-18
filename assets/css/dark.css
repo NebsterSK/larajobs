@@ -1,0 +1,13 @@
+html.dark body {
+    color: #b5b3ad;
+    background-color: #111110;
+}
+
+html.dark .list-group-item {
+    background-color: transparent;
+    border-color: #474745;
+}
+
+html.dark .list-group-item p {
+    color: #ffffff;
+}

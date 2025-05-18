@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/light.css" rel="stylesheet">
+    <link href="assets/css/dark.css" rel="stylesheet">
     <title>Laravel companies in Slovakia</title>
     <script type="text/javascript">
         (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split( " "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for ( var d = {}, e = ["get_group"].concat( Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
@@ -12,7 +15,11 @@
 </head>
 
 <body>
-<div class="container">
+<div x-data="" class="container">
+    <div x-on:click="toggleMode" id="modeToggler" class="d-inline-block position-absolute lead px-2 py-1" title="Toggle Light / Dark mode">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </div>
+
     <h1 class="text-center mt-5">Laravel companies in Slovakia</h1>
 
     <p class="text-center">If you are looking for a job in a company that uses Laravel, you are in the right place!<br>Feel free to contact any company from the list below.</p>
@@ -62,12 +69,27 @@
         </div>
     </div>
 
-    <p class="text-center">Lukáš Neuschl &copy; 2025, built with <a href="https://alpinejs.dev/" target="_blank">Alpine.js</a></p>
+    <p class="text-center">Sources: <a href="https://profesia.sk" target="_blank">profesia.sk</a>, <a href="https://pretlak.sk" target="_blank">pretlak.sk</a>, <a href="https://linkedin.com" target="_blank">linkedin.com</a></p>
+
+    <p class="text-center text-secondary">Lukáš Neuschl &copy; 2025, built with <a href="https://alpinejs.dev/" target="_blank">Alpine.js</a></p>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js" defer></script>
 <script>
+    let mode = 'dark';
+
+    function toggleMode()
+    {
+        if (mode === 'light') {
+            document.documentElement.classList.add('dark');
+            mode = 'dark';
+        } else {
+            document.documentElement.classList.remove('dark');
+            mode = 'light';
+        }
+    }
+
     function filter(search)
     {
         return data.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()));
