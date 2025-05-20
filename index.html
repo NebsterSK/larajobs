@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,8 +15,8 @@
 </head>
 
 <body>
-<div x-data="" class="container">
-    <div x-on:click="toggleMode" id="modeToggler" class="d-inline-block position-absolute lead px-2 py-1" title="Toggle Light / Dark mode">
+<div x-data="" x-init="initTheme" class="container">
+    <div x-on:click="toggleTheme" id="themeToggler" class="d-inline-block position-absolute lead px-2 py-1" title="Toggle Light / Dark mode">
         <i class="fa-solid fa-circle-half-stroke"></i>
     </div>
 
@@ -71,29 +71,14 @@
 
     <p class="text-center">Sources: <a href="https://profesia.sk" target="_blank">profesia.sk</a>, <a href="https://pretlak.sk" target="_blank">pretlak.sk</a>, <a href="https://linkedin.com" target="_blank">linkedin.com</a></p>
 
-    <p class="text-center text-secondary">Lukáš Neuschl &copy; 2025, built with <a href="https://alpinejs.dev/" target="_blank">Alpine.js</a></p>
+    <p class="text-center text-secondary"><a href="https://www.linkedin.com/in/lukas-neuschl/" target="_blank">Lukáš Neuschl</a> &copy; 2025, built with <a href="https://alpinejs.dev/" target="_blank">Alpine.js</a></p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js" defer></script>
 <script>
-    let mode = 'dark';
-
-    function toggleMode()
-    {
-        if (mode === 'light') {
-            document.documentElement.classList.add('dark');
-            mode = 'dark';
-        } else {
-            document.documentElement.classList.remove('dark');
-            mode = 'light';
-        }
-    }
-
-    function filter(search)
-    {
-        return data.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()));
-    }
+    // Properties
+    let theme = localStorage.theme !== undefined ? localStorage.theme : 'dark';
 
     const data = [
         { name: "Amcef", url: "https://amcef.com/" },
@@ -133,6 +118,33 @@
         { name: "World Business Press Online", url: "https://wbpo.sk/" }
     ];
 
+    // Function definitions
+    function toggleTheme()
+    {
+        if (theme === 'light') {
+            document.documentElement.classList.add('dark');
+            localStorage.theme = theme = 'dark';
+        } else {
+            document.documentElement.classList.remove('dark');
+            localStorage.theme = theme = 'light';
+        }
+    }
+
+    function initTheme()
+    {
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    }
+
+    function filter(search)
+    {
+        return data.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()));
+    }
+
+    // Function calls
     mixpanel.init("43874bd6d44dc17060ba954cc58c2154", {
         debug: false,
         track_pageview: true,
