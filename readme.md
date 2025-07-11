@@ -41,6 +41,9 @@ https://commander.sk/
 **Dazzler**  
 https://dazzler.sk/
 
+**DeMi Studio**  
+https://www.demi.sk/
+
 **DIGI Slovakia**  
 https://digislovakia.sk/
 
@@ -59,6 +62,9 @@ https://finax.eu/
 **Flywize**  
 https://flywize.eu/
 
+**Invibe**  
+https://invibe.sk/
+
 **Jens & Litwak**  
 http://jenslitwak.com/
 
@@ -73,6 +79,9 @@ https://matate.sk/
 
 **Nike**  
 https://nike.sk/
+
+**Partners Group**  
+https://www.partnersgroup.sk/
 
 **Positive**  
 https://positive.sk/
