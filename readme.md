@@ -68,7 +68,7 @@ https://invibe.sk/
 **Jens & Litwak**  
 http://jenslitwak.com/
 
-**JR Group**
+**JR Group**  
 https://www.jrgroup.eu/
 
 **Kodiva**  
@@ -103,6 +103,9 @@ https://startitupgroup.sk/
 
 **TapGest**  
 https://tapgest.com/
+
+**TJ Legal**  
+https://tj-legal.com/
 
 **TSS Group**  
 https://tssgroup.sk/
