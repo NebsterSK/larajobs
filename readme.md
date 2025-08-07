@@ -65,9 +65,6 @@ https://flywize.eu/
 **Invibe**  
 https://invibe.sk/
 
-**Jens & Litwak**  
-http://jenslitwak.com/
-
 **JR Group**  
 https://www.jrgroup.eu/
 
