@@ -38,6 +38,9 @@ https://brokeria.sk/
 **Commander Services**  
 https://commander.sk/
 
+**Confer**  
+https://www.confer.shop/sk/
+
 **Dazzler**  
 https://dazzler.sk/
 
