@@ -3,7 +3,7 @@
 If you are looking for a job in a company that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
-Last updated: 19.8.2025
+Last updated: 6.9.2025
 
 ***
 
@@ -42,6 +42,9 @@ https://commander.sk/
 
 **Confer**  
 https://www.confer.shop/sk/
+
+**DataConcept**  
+https://dataconcept.digital/
 
 **Dazzler**  
 https://dazzler.sk/
