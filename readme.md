@@ -3,7 +3,7 @@
 If you are looking for a job in a company that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
-Last updated: 17.9.2025
+Last updated: 10.10.2025
 
 ***
 
@@ -39,6 +39,9 @@ https://petrzalka.sk/
 
 **Brokeria**  
 https://brokeria.sk/
+
+**Coderama**  
+https://coderama.com/
 
 **Commander Services**  
 https://commander.sk/
@@ -85,6 +88,9 @@ https://kodiva.sk/
 **Let's Consult**  
 https://letsconsult.sk/
 
+**MacMike**  
+https://macmike.sk/
+
 **Matate**  
 https://matate.sk/
 
@@ -96,6 +102,9 @@ https://www.partnersgroup.sk/
 
 **Positive**  
 https://positive.sk/
+
+**Prosight**  
+https://prosight.sk/
 
 **Qorpo**  
 https://qorpo.world/
