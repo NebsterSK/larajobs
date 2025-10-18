@@ -76,6 +76,9 @@ https://finax.eu/
 **Flywize**  
 https://flywize.eu/
 
+**GoSpace Labs**  
+https://gospace.tech/
+
 **Invibe**  
 https://invibe.sk/
 
