@@ -3,9 +3,12 @@
 If you are looking for a job in a company that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
-Last updated: 10.10.2025
+Last updated: 15.11.2025
 
 ***
+
+**aiApply**  
+https://aiapply.co/
 
 **Antik**  
 https://www.antik.sk/
