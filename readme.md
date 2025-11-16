@@ -3,7 +3,7 @@
 If you are looking for a job in a company that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
-Last updated: 15.11.2025
+Last updated: 16.11.2025
 
 ***
 
@@ -141,6 +141,9 @@ https://valllue.com/
 
 **Websupport**  
 https://websupport.sk/
+
+**Vermont**  
+www.vermont.eu
 
 **WESTech**  
 https://westech.eu/
