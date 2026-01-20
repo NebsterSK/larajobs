@@ -3,7 +3,7 @@
 If you are looking for a job in a company that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
-Last updated: 16.11.2025
+Last updated: 20.1.2026
 
 ***
 
@@ -70,6 +70,9 @@ https://dpb.sk/
 **ESET**  
 https://eset.com/
 
+**Eworks**  
+https://eworks.sk/
+
 **Fat Chilli**  
 https://fatchillimedia.com/
 
@@ -117,6 +120,9 @@ https://qorpo.world/
 
 **SCR Technologies**  
 https://scrtechnologies.sk/
+
+**Servers.com**  
+https://www.servers.com/
 
 **Slovenská Národná Galéria**  
 https://sng.sk/
