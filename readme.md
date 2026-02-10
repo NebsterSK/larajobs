@@ -1,9 +1,9 @@
 # Laravel Companies Slovakia
 
-If you are looking for a job in a company that uses Laravel, you are in the right place!  
+If you are looking for a job in a company situated in Slovakia that uses Laravel, you are in the right place!  
 Feel free to contact any company from the list below.
 
-Last updated: 20.1.2026
+Last updated: 10.2.2026
 
 ***
 
@@ -58,6 +58,9 @@ https://dataconcept.digital/
 **Dazzler**  
 https://dazzler.sk/
 
+**Delphia**  
+https://www.delphia.sk/
+
 **DeMi Studio**  
 https://www.demi.sk/
 
@@ -87,6 +90,9 @@ https://gospace.tech/
 
 **Invibe**  
 https://invibe.sk/
+
+**Izzy Trading**  
+https://foxii.sk/
 
 **JR Group**  
 https://www.jrgroup.eu/
@@ -164,5 +170,6 @@ https://wbpo.sk/
 
 ## Sources
 - https://profesia.sk/
+- https://pretlak.sk
 - https://linkedin.com/
 - My own experience
